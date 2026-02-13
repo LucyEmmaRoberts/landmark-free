@@ -1,26 +1,3 @@
-# Deformetrica  -NOT IN PYTHON
-
-# Activate environment
-source activate deformetrica
-
-# Navigate to the file directory
-cd
-ls
-cd .. # for moving up a directory
-
-# Deformetrica installation
-conda create -n deformetrica python=3.7
-source activate deformetrica
-conda install -c pytorch -c conda-forge -c anaconda -c aramislab/label/rc deformetrica
-
-# run Deformetrica in command line on linux or mac: NOT IN PYTHON
-############################################################################
-deformetrica estimate model.xml data_set.xml --p optimization_parameters.xml -v INFO
-############################################################################
-
-# Everything below is post-processing from Deformetrica results 
-# IN PYTHON ################################################################
-# This is modified from the Landmark-free Morphometry pipeline from Toussaint et al 2021
 
 python
 
