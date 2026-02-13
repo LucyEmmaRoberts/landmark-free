@@ -1,0 +1,28 @@
+# Deformetrica installation
+# will not work on Windows, need Linux or Mac
+conda create -n deformetrica python=3.7
+source activate deformetrica
+conda install -c pytorch -c conda-forge -c anaconda -c aramislab/label/rc deformetrica
+
+# Activate environment
+source activate deformetrica
+
+# Navigate to the file directory
+# which should contain:
+	# Your meshes
+	# data_set.xml
+	# model.xml
+	#optimization_parameters.xml
+	# and your initial template (pick one mesh, duplicate and rename 'initial_template.vtk'
+
+cd	# move into a directory
+ls	# see the files in the current location
+cd ..	# for moving up out of a directory
+
+# then run deformetrica using this line
+deformetrica estimate model.xml data_set.xml --p optimization_parameters.xml -v INFO
+
+# after a short while it should tell you how many control points it has applied
+# if this number is too large, stop the process using ctrl-C and increase the kernel width
+# if this number is too small, stop the process using ctrl-C and decrease the kernel width
+
