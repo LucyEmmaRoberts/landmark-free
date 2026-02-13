@@ -22,6 +22,11 @@ dataxml_Generation.py
 create_datacsv_fromxml.py  
 * For generating data.csv file needed for postprocessing the outputs of Deformetrica  
 
+## Running deformetrica  
+
+install_run_deformetrica.txt
+* Instructions for installing and running deformetrica in command line
+
 ## Postprocessing Deformetrica outputs
 
 Processing_Deformetrica_outputs.py
