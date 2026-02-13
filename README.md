@@ -11,7 +11,7 @@ Mesh_alignment.R
 Alignment_code_SMA_PAIS_PAMS.R
 * For running different alignment protocols, according to Roberts _et al._ 2026
 
-## Useful bits of code for generating files for Deformetrica
+## Generating files for Deformetrica
           
 batch_ply_to_VTK_conversion.py  
 * For batch converting a folder of .ply meshes into .vtk format for analysis in python  
@@ -21,6 +21,13 @@ dataxml_Generation.py
   
 create_datacsv_fromxml.py  
 * For generating data.csv file needed for postprocessing the outputs of Deformetrica  
+
+## Postprocessing Deformetrica outputs
+
+Processing_Deformetrica_outputs.py
+* Modified from the landmark-free morphometry pipeline from Toussaint _et al._ 2021
+* kernel principal components analysis
+* Extraction of kPCs, eigenvalues and eigenvectors
 
 ## References  
 https://doi.org/10.1007/978-3-030-04747-4_1  
