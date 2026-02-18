@@ -114,9 +114,10 @@ for (i in seq_along(meshes_humerus)) {
   original_name <- gsub("\\.ply$", "", basename(ply_humerus)[i])  # remove the .ply extension
   output_file <- paste0(original_name, ".ply")
   # Export the mesh in binary format (choose either BE or LE)
-  vcgPlyWrite(aligned_humerus[[i]], output_file, format = "PLY_BINARY_LE")  # Use PLY_BINARY_BE for big-endian
+  vcgPlyWrite(aligned_scaled_humerus[[i]], output_file, format = "PLY_BINARY_LE")  # Use PLY_BINARY_BE for big-endian
 }
 
 ##
+
 
 
