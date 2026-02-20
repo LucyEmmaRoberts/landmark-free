@@ -8,10 +8,10 @@ For aligning meshes, running Deformetrica, and processing outputs.
 
 Mesh_alignment.R
 * For aligning a set of meshes in R
-* Using the PAMS protocol following Roberts _et al._ 2026
+* Using the PAMS protocol as recommended in Roberts _et al._
 
 Alignment_code_SMA_PAIS_PAMS.R
-* For running different alignment protocols, according to Roberts _et al._ 2026
+* For running different alignment protocols, according to Roberts _et al._
 
 ## Generating files for Deformetrica
           
