@@ -1,6 +1,8 @@
 # Landmark-free morphometry  
 
-For aligning meshes, running Deformetrica, and processing outputs
+Code from The impact of alignment and scaling on biological inferences from landmark-free morphometrics (Roberts, Camaiti & Goswami, In review @ _Journal of Anatomy_)
+
+For aligning meshes, running Deformetrica, and processing outputs.
 
 ## Aligning meshes in R  
 
