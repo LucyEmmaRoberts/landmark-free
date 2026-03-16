@@ -36,6 +36,12 @@ Processing_Deformetrica_outputs.py
 * kernel principal components analysis
 * Extraction of kPCs, eigenvalues and eigenvectors
 
+## Statistical comparison of DAA runs
+
+Comparing_alignment.R
+* Code for comparing DAA runs based on different alignment methods according to Roberts _et al._ (In Review)
+
+
 ## References  
 https://doi.org/10.1007/978-3-030-04747-4_1  
 https://doi.org/10.1016/j.neuroimage.2014.06.043  
